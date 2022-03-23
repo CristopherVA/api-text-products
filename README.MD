@@ -6,7 +6,7 @@ _Aplicacion del lado del backend para llevar las gestiones de productos_
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-### Pre-requisitos 📋
+## Pre-requisitos 📋
 
 _Herramientas utilizadas para el desarrollo del proyecto_
 
@@ -17,7 +17,7 @@ MYSQL
 POSTMAN
 ```
 
-### Instalación 🔧
+## Instalación 🔧
 
 _Para poder correr del proyecto debemos de hacer lo siguiente:_
 
@@ -27,13 +27,13 @@ _Clonar el proyecto_
 git clone 
 ```
 
-### Instalar las dependencias
+## Instalar las dependencias
 
 ```
 npm install o npm i
 ```
 
-### Creacion de base de datos 🔧
+## Creacion de base de datos 🔧
 
 ```
 CREATE TABLE productos(
@@ -55,7 +55,7 @@ INSERT INTO categorias VALUES(null, 'bebidas');
 INSERT INTO categorias VALUES(null, 'vegetales');
 ```
 
-### Insertar variables de entorno para poder conectar con la base de datos 🔧
+## Insertar variables de entorno para poder conectar con la base de datos 🔧
 
 ```
 Estan en el archivo .env.example !borrar .example!
@@ -68,14 +68,14 @@ DATABASE = NOMBRE DE LA BASE DE DATOS
 PORT_DB = YOUR PUERTO DE LA BASE DE DATOS
 ```
 
-### Correr el servidor desde la terminal con el siguiente comando 🔧
+## Correr el servidor desde la terminal con el siguiente comando 🔧
 
 ```
 npm start
 ```
 
 
-### Rutas utilizadas 🛠️
+## Rutas utilizadas 🛠️
 
 ```
     Ejecutar todos los endpoint en posman u otra opcion
